@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Aleksandr Zhbanov || DevOps, SRE, System administrator [AWS ,Docker, HighLoad]</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Use container to make the content in the center of the page -->
+    <div class="container">
+      <header id="header">
+        <div id="personal-info">
+          <div class="avatar-container">
+            <img src="files/avatar.jpg" alt="Aleksandr Zhbanov" width="100" height="100" />
+          </div>
+          <div class="header-info-container">
+            <h1>Aleksandr Zhbanov</h1>
+            <p>DevOps, SRE, System administrator
+              <br>[AWS ,Docker, HighLoad]
+            </p>
+            <img src="https://assets.codepen.io/9277864/mood-rock.svg" alt="Rock" widht="25" height="25" />
+          </div>
+          <div class="header-icons">
+            <div class="header-icons-row first-icons">
+              <div class="header-icon-4"></div>
+              <div class="header-icon-2"></div>
+              <div class="header-icon-3"></div>
+            </div>
+            <div class="header-icons-row">
+              <div class="header-icon-7"></div>
+              <div class="header-icon-10"></div>
+              <div class="header-icon-12"></div>
+            </div>
+          </div>
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li class="active-bg" id="menu-item-1">
+              <button id="bio-btn" onClick="btnClick('bio')" class="blue-line">
+                <img src="https://assets.codepen.io/9277864/about-me.svg" alt="Bio" width="40" height="40" />
+                <p>Bio</p>
+              </button>
+            </li>
+            <li id="menu-item-2">
+              <button id="experience-btn" onClick="btnClick('experience')">
+                <img src="https://assets.codepen.io/9277864/office-work.svg" alt="Experience" width="40" height="40" />
+                <p>Experience</p>
+              </button>
+            </li>
+            <li id="menu-item-3">
+              <button id="portfolio-btn" onClick="btnClick('portfolio')">
+                <img src="https://assets.codepen.io/9277864/page.svg" alt="Portfolio" width="40" height="40" />
+                <p>Portfolio</p>
+              </button>
+            </li>
+            <li id="menu-item-4">
+              <button id="contact-btn" onClick="btnClick('contact')">
+                <img src="https://assets.codepen.io/9277864/contact.svg" alt="Contact" width="40" height="40" />
+                <p>Contact</p>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="bio">
+          <h2>Bio</h2>
+          <p><span class="emoji">🙋‍♂️</span> Hey,</p>
+          <p>My name is Aleksandr, DevOps Engineer with 8+ years of hands-on experience in architecting / automating and optimizing mission critical deployments over large infrastructure </p>
+          <ul>
+            <li><span class="emoji">👉</span> Proficient with Configuration Management tools, and in developing CI / CD pipelines.</li>
+            <li><span class="emoji">👉</span> Solid experience with Linux (CentOS) administration</li>
+            <li><span class="emoji">👉</span> Ability to work effectively within a team and with minimal supervision</li>
+          </ul>
+          <p>That would be great if we connected on social media, especially on LinkedIn, kept in touch.</p>
+
+          <div class="social-media">
+            <div><a href="https://www.linkedin.com/in/2bio/" target="_blank"><img src="https://assets.codepen.io/9277864/linkedin.svg" alt="Linkedin" width="28" height="28" /></a></div>
+          </div>
+        </section>
+        <section id="experience" class="display-none">
+          <h2>Experience</h2>
+          <div class="history">
+            <div data-year="2020">
+              <h3>DevOps Engineer/Lead DevOps</h3>
+              <p>Continuous Delivery and Continuous Deployment improvements
+ Implemented a Gitlab based CICD. One button for deploy (lint, sonar, autotests, docker build, image push to repositories, and deploying Java applications to docker swarm)
+
+ Implementation of a monitoring system based on Prometheus, Grafana, Alertmanager. Collecting metrics from applications, database, solr and instances
+ Transferring a project from docker swarm to kubernetes
+ Infrastructure as a CodeContinuous Delivery and Continuous Deployment improvements Implemented a Gitlab based CICD. One button for deploy (lint, sonar, autotests, docker build, image push to repositories, and deploying Java applications to docker swarm) Implementation of a monitoring system based on Prometheus, Grafana, Alertmanager. Collecting metrics from applications, database, solr and instances Transferring a project from docker swarm to kubernetes Infrastructure as a Code
+Skills: SQL · ArgoCD · Sonar · Nexus · AWS · Terraform · Kubernetes</p>
+            </div>
+            <div data-year="2019">
+              <h3>Site Reliability Engineer- <span>FinTech Company</span></h3>
+              <p>Maintenance of three projects of the company (Core Banking Solution, Internet Bank, Transaction Report project).
+Experience with AWS - including but not limited to EC2, S3, RDS, IAM, CloudWatch, ElasticCache, and Route53.
+Proficient with Git and Git workflows • Experience with container orchestration systems such as AWS ECS, Kubernetes, Swarm
+SLA, SLO и SLIMaintenance of three projects of the company (Core Banking Solution, Internet Bank, Transaction Report project). Experience with AWS - including but not limited to EC2, S3, RDS, IAM, CloudWatch, ElasticCache, and Route53. Proficient with Git and Git workflows • Experience with container orchestration systems such as AWS ECS, Kubernetes, Swarm SLA, SLO и SLI
+Skills: SQL · keycloak · Splunk · Swarm · GitLab · CICD · Solr · RabbitMQ · AWS · Oracle</p>
+            </div>
+            <div data-year="2014">
+              <h3>System Integration Engineer - <span>Digital internet market</span></h3>
+              <p>Administration and monitoring of servers serving the company's main sites, as well as auxiliary projects.
+Mainly worked with CentOS.
+Server automation with Puppet: successfully implemented server automation based on puppet, which allowed the administration of a 30-fold increase in the number of servers with the same number of employees.
+Shell programming experience with Bash, strong command-line. Writing backup scripts. For example, a configurable script for file and databases backups was written in bash.
+GitLab, implementing code checks at the stage of uploading code to the repository.
+PostgreSQL. Performance tuning, heavy query tracking, and physical and logical replication. MySQL. Configuration and replication master - slave, galera cluster.
+Experience with server-side technologies such as Apache, Nginx, HAProxy, & Redis.
+Experience with server monitoring systems like Munin and Nagios.
+Apply common SCM practices such as branching and merging code.
+Nginx, httpd, php, memcache, redis and other software, which need for site operationAdministration and monitoring of servers serving the company's main sites, as well as auxiliary projects. Mainly worked with CentOS. Server automation with Puppet: successfully implemented server automation based on puppet, which allowed the administration of a 30-fold increase in the number of servers with the same number of employees. Shell programming experience with Bash, strong command-line. Writing backup scripts. For example, a configurable script for file and databases backups was written in bash. GitLab, implementing code checks at the stage of uploading code to the repository. PostgreSQL. Performance tuning, heavy query tracking, and physical and logical replication. MySQL. Configuration and replication master - slave, galera cluster. Experience with server-side technologies such as Apache, Nginx, HAProxy, & Redis. Experience with server monitoring systems like Munin and Nagios. Apply common SCM practices such as branching and merging code. Nginx, httpd, php, memcache, redis and other software, which need for site operation
+Skills: SQL · Nginx · Apache · CDN · Puppet · HighLoad · Centos · Ceph · Docker · PostgreSQL</p>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="display-none">
+          <h2>Portfolio</h2>
+          <div class="grid">
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/schedule-milestone-2.svg" alt="Project 1" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/designer-desk-1.svg" alt="Project 2" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/project-timeline-2.svg" alt="Project 3" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/business-presentation-1.svg" alt="Project 4" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/product-development-1.svg" alt="Project 5" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="display-none">
+          <h2>Contact</h2>
+          <div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/location-user.svg" alt="Address Icon" width="25" height="25" /></p>
+              <address>Address</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/envelope-letter.svg" alt="Email Icon" width="25" height="25" /></p>
+              <address>mail@bmail.ru</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/mobile-phone-1.svg" alt="Phone Icon" width="25" height="25" /></p>
+              <address>111-222-333</address>
+            </div>
+
+            <!-- feedback form here-->
+          </div>
+        </section>
+      </main>
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike1" class="bike1" />
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike2" class="bike2" />
+    </div>
+  </div>
+  <div class="codepen-footer">
+    <small>page created by <a href="https://twitter.com/intent/follow?screen_name=TanGravam" target="_top">@TanGravam</a></small>
+  </div>
+</body>
+
+</html>
